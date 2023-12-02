@@ -1,0 +1,132 @@
+header{
+    padding: 40px;
+    background-color:#666666;
+    background-image: url('../images/flywheel.jpg');
+    background-size: cover;
+    font-variant: small-caps;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+body{
+    padding: auto;
+    margin: 2%;
+}
+
+.left{
+    width:20%;
+    height: 650px;
+	margin-right:center;
+    display:inline-block;
+    float: left;
+    background-color: #97830e;
+}
+
+.right{
+    width:75%;
+	margin-right: center;
+	display:inline-block;
+    float: left;
+
+}
+img{
+    width: 80%;
+    height: 120px;
+    border: double 5px #000000;
+    margin: 30px 8% 0px 8% ;   
+}
+
+nav a{
+    display: inline-block;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-right:10%;
+    color: #000000;
+    border-radius:10px;
+    background-color: rgb(255, 255, 255, 0.4);
+    text-decoration: none;
+   
+}
+
+.active{
+    background-color: #ffffff ;
+    font-size: 150%;
+}
+
+/* 1) table design*/
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 5px #ffffff;    
+}
+/* 2) th properties*/
+th{
+    background: #190453;
+	background: -moz-linear-gradient(top, #190453 0%, #0bcfd6 100%);
+	background: -webkit-linear-gradient( #190453 0%, #0bcfd6 100%);
+	background: -o-linear-gradient( #190453 0%, #0bcfd6 100%);
+	background: linear-gradient( #190453 0%, #0bcfd6 100%);
+    border:solid 5px #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/*3) table align*/
+
+
+th:nth-child(1),td:nth-child(1) {
+    width: 60%;
+    text-align: left;
+  }
+
+th:nth-child(2),td:nth-child(2){
+    width: 20%;
+    text-align: center;
+}
+
+th:nth-child(3),td:nth-child(3){
+    width: 20%;
+    text-align: center;
+}
+
+th,td{
+    padding: 20px;
+}
+
+/*6) td properties*/
+
+td{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    color: #00008b;
+    border: solid 5px #ffffff;
+    border-radius: 25px;
+}
+
+/* 4) opacity aplied*/
+
+tr:nth-child(even){
+    background-color: #cfc100;
+    opacity: 70%;
+}
+
+tr:nth-child(2n+3){
+    background-color: #17c407;
+    opacity: 70%;  
+}
+
+/* 5) change opacity*/
+
+tr:hover{
+    opacity: 1;
+}
